@@ -1,0 +1,55 @@
+{
+  "name": "rescaling-value",
+  "version": "1.0.0",
+  "description": "Rescale a value of an array of values in [0, 1]",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel ./src --out-dir lib --extensions '.ts,.tsx'",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvraamMavridis/rescale-value.git"
+  },
+  "keywords": [
+    "rescale",
+    "value",
+    "min-max",
+    "scaling"
+  ],
+  "author": "Avraam Mavridis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AvraamMavridis/rescale-value/issues"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/__tests__/*.+(ts|tsx|js)"
+    ]
+  },
+  "homepage": "https://github.com/AvraamMavridis/rescale-value#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-typescript": "^7.0.0",
+    "@types/jest": "^23.3.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.5.0",
+    "ts-jest": "^23.1.4",
+    "typescript": "^3.0.3"
+  }
+}

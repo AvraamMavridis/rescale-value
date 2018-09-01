@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES3",
+    "sourceMap": true,
+    "moduleResolution": "classic",
+    "module": "amd",
+    "allowJs": true,
+    "noEmit": false,
+    "strict": true,
+    "isolatedModules": false,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src"
+  ]
+}
