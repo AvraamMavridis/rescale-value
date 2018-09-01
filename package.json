@@ -1,6 +1,6 @@
 {
   "name": "rescaling-value",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rescale a value of an array of values in [0, 1]",
   "main": "lib/index.js",
   "scripts": {
