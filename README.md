@@ -2,6 +2,8 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/AvraamMavridis/rescaling-value.svg)](https://greenkeeper.io/)
 
+[![Build Status](https://travis-ci.org/AvraamMavridis/rescaling-value.svg?branch=master)](https://travis-ci.org/AvraamMavridis/rescaling-value)
+
 Simple module to rescale a value of an array of values in [0, 1] range, useful to normalize a value to be used in an AI model for example.
 
 ```
