@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "ES3",
     "sourceMap": true,
-    "moduleResolution": "classic",
-    "module": "amd",
+    "moduleResolution": "node",
+    "module": "umd",
     "allowJs": true,
     "noEmit": false,
     "strict": true,
