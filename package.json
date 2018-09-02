@@ -1,7 +1,7 @@
 {
-  "name": "rescaling-value",
+  "name": "mean-normalization",
   "version": "1.0.1",
-  "description": "Rescale a value of an array of values in [0, 1]",
+  "description": "Normalize a value of an array of values in [0, 1]",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run build",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AvraamMavridis/rescale-value.git"
+    "url": "git+https://github.com/AvraamMavridis/mean-normalization.git"
   },
   "keywords": [
     "rescale",
@@ -21,7 +21,7 @@
   "author": "Avraam Mavridis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AvraamMavridis/rescale-value/issues"
+    "url": "https://github.com/AvraamMavridis/mean-normalization/issues"
   },
   "jest": {
     "moduleFileExtensions": [
@@ -41,7 +41,7 @@
       "**/__tests__/*.+(ts|tsx|js)"
     ]
   },
-  "homepage": "https://github.com/AvraamMavridis/rescale-value#readme",
+  "homepage": "https://github.com/AvraamMavridis/mean-normalization#readme",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
